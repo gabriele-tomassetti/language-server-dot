@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Routing" Version="1.1.1" />
+    <PackageReference Include="Antlr4.Runtime" Version="4.6.1-beta002" />
+  </ItemGroup>
+
+  <!--<ItemGroup>
+    <None Include="App.config" />
+    <Antlr4 Include="DOT.g4">
+      <Generator>MSBuild:Compile</Generator>
+      <CustomToolNamespace>AntlrServer</CustomToolNamespace>
+    </Antlr4>
+    <None Include="packages.config" />
+  </ItemGroup>-->
+
+</Project>
