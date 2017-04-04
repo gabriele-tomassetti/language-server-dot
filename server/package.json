@@ -2,7 +2,7 @@
   "name": "dot-language-server",
   "description": "Implementation of a language server for Dot",
   "version": "0.0.1",
-  "author": "Microsoft Corporation",
+  "author": "Gabriele Tomassetti",
   "license": "MIT",
   "engines": {
     "node": "*"

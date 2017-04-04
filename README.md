@@ -10,7 +10,7 @@ To use the project you have to enter in the folders `client` and `server` and in
 npm install
 ```
 
-and you have to enter ´csharp´ and restore the nuget packages:
+and you have to enter `csharp` and restore the nuget packages:
 
 ```bash
 dotnet restore
