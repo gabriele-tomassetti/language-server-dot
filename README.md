@@ -16,17 +16,18 @@ and you have to enter `csharp` and restore the nuget packages:
 dotnet restore
 ```
 
-Before launching the client (which is the proper VS Code extension) you have to compile the server. The server will be outputted under a `server` folder. You also have to leave running the .NET Core project under the `csharp` folder.
+Before launching the client (which is the proper VS Code extension) you have to compile the server. The server will be outputted under a `server` folder inside the client. You also have to leave running the .NET Core project under the `csharp` folder.
 
 ```bash
 dotnet run
 ```
 
-So you have to open three Visual Studio Code instances:
+So while you are developing you have to open three Visual Studio Code instances:
 
 - one for the folder `client`
 - one for the folder `server`
 - one for the folder `csharp`
 
+If you want to simply run the project you can just start the .NET Core one and the client. You can start the .NET Core project outside Visual Studio Code, using the command line. But the client is an extension, so it has to be run inside Visual Studio Code.
 
 This code is based upon the example provided by Microsoft: [Sample language server implemented in Node](https://github.com/Microsoft/vscode-languageserver-node-example).
