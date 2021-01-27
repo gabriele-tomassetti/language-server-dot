@@ -1,6 +1,6 @@
 # A Language Server For DOT With Visual Studio Code
 
-This is the companion repository of the [A Language Server For DOT With Visual Studio Code](https://tomassetti.me/a-language-server-for-dot-with-visual-studio-code/), a tutorial that will explain how to create a server and a client for the Language Server Protocol.
+This is the companion repository of the [A Language Server For DOT With Visual Studio Code](https://tomassetti.me/language-server-dot-visual-studio/), a tutorial that will explain how to create a server and a client for the Language Server Protocol.
 
 The client will be created for Visual Studio Code, while the server will be created with Visual Studio Code, but could work with any client that supports the Language Server Protocol.
 
